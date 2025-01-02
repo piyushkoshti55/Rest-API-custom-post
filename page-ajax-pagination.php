@@ -5,6 +5,7 @@
 
 get_header(); ?>
 
+
 <div id="post-container">
     <?php
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; // Get current page number

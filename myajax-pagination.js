@@ -10,6 +10,7 @@ jQuery(document).ready(function ($) {
             'nonce': my_ajax_object.nonce // Nonce for security
         };
 
+        
         // Make an AJAX POST request
         $.post(my_ajax_object.ajax_url, data, function (response) {
             jQuery('#post-container').html(response); // Replace the posts with new ones

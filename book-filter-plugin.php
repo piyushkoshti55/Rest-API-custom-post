@@ -11,6 +11,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+
 // Register Custom Post Type and Taxonomy
 function bfp_register_custom_post_type() {
     register_post_type('book', [

@@ -8,6 +8,7 @@
 
 get_header(); ?>
 
+
 <div id="post-container">
     <?php 
     // Your loop here to display posts initially

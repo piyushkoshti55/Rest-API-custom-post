@@ -5,6 +5,7 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         loadMorePosts();
     });
+    
 
     // Function to load more posts
     function loadMorePosts() {

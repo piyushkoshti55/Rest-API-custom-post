@@ -2,6 +2,7 @@ let currentPage = 1;
 const booksPerPage = 5;
 const totalPages = 4 ;
 
+
         function updatePaginationButtons(totalPages) {
             document.getElementById('prev-page').disabled = currentPage === 1;
             document.getElementById('next-page').disabled = currentPage === totalPages;
